@@ -1,18 +1,14 @@
 # 🎉 Welcome to Online Video Streaming Links!
 
-🌈 This repository is your go-to place for all things related to video streaming! Dive into a plethora of amazing links and resources that will keep you entertained and informed.
+🌈 This repository is a collection of public M3U playlist links and resources for watching live channels in a compatible media player.
 
-## 📺 What You'll Find Here:
-- 🎬 Curated links to popular streaming platforms.
-- 📚 Resources to enhance your streaming experience.
-- 💡 Tips & tricks for streaming like a pro!
-
-## 🚀 Get Involved:
-We encourage contributions! If you have any awesome links or resources to share, feel free to fork the repo and submit a pull request.
+## 📺 What You'll Find Here
+- M3U playlist links organized by category.
+- Instructions for opening playlists in media-player apps.
 
 ## 🧩 Streaming Links
 
-### M3U Playlist URLs Based on Category
+### M3U Playlist URLs by Category
 
 | Category | Link |
 | --- | --- |
@@ -45,9 +41,37 @@ We encourage contributions! If you have any awesome links or resources to share,
 | Weather | https://iptv-org.github.io/iptv/categories/weather.m3u |
 | Other | https://iptv-org.github.io/iptv/categories/undefined.m3u |
 
-### Main Channels
+### All Channels
 
 - https://iptv-org.github.io/iptv/index.m3u
 
+## 📖 Tutorial: How to Use the Playlist Links
+
+These URLs point to M3U playlist files. They are not all direct video streams: open or import a playlist URL in a media player that supports M3U, then choose a channel from its playlist.
+
+### On a computer (VLC)
+
+1. Copy a playlist URL from above.
+2. Open VLC and choose **Media → Open Network Stream** (or press **Ctrl+N** on Windows/Linux; **⌘+N** on macOS).
+3. Paste the URL and select **Play**.
+4. Open **View → Playlist** (or press **Ctrl+L** / **⌘+L**) to browse and select channels.
+
+To use a downloaded playlist instead, save the `.m3u` file and open it with VLC using **Media → Open File**, or drag it into the VLC window.
+
+### In other apps
+
+Look for an option named **Add playlist**, **Add M3U URL**, **Open network stream**, or **Import playlist**. Paste the full playlist URL (including `.m3u`) and save or load it. If the app only accepts a local file, download the playlist first and import that file. Menu names vary by app and device.
+
+### Other apps that can open M3U playlists
+
+- **Kodi** — Add the **PVR IPTV Simple Client** add-on, then enter the playlist URL in its configuration.
+- **IPTVnator** — Desktop playlist player for Windows, macOS, and Linux; add a playlist by URL or file.
+- **TiviMate** — IPTV playlist app for Android TV/Google TV; add an M3U playlist in the app. Some features may require a paid upgrade.
+- **Televizo** — Android/Android TV IPTV player; add an M3U playlist URL or file.
+- **GSE Smart IPTV** — Available on mobile platforms; supports importing playlists, with availability and features varying by device/store.
+
+App availability, free features, and setup steps can change. These apps are players, not channel providers, and may not support every stream or playlist format. Use only streams you are authorized to access. Public streams may be unavailable, change address, or vary in quality; a playlist link does not guarantee every channel will work.
+
 ## 👾 Enjoy Streaming!
-Here's to countless hours of enjoyment! Happy streaming! 🎥✨
+
+Happy watching! 🎥✨
